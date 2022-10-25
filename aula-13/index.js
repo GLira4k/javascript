@@ -11,6 +11,23 @@ console.log(umaString.concat(' em um lindo dia.'));
 console.log(umaString + ' em um lindo dia.');
 console.log(`${umaString} em um lindo dia.`);
 
+console.log(umaString.indexOf('texto')); // Para descobrir em qual índice começa a palavra.
+console.log(umaString.indexOf('m', 1)); // Para buscar um valor a partir de um índice específico.
+console.log(umaString.indexOf('m', 1)); // Para descobrir em qual índice começa a palavra iniciando a busca de trás para frente. 
+
+console.log(umaString.match(/[a-z]/g));
+
+console.log(umaString.search(/[a-z]/g));
+
+console.log(umaString.replace(/Um/, 'Outro')); // Para substituir uma palavra específica
+
+console.log(umaString.replace(/t/g, '#')); // Para substituir repetidamente 
+
+console.log(umaString.length);
+
+
+
+
 
 
 
