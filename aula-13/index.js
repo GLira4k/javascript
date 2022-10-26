@@ -23,7 +23,19 @@ console.log(umaString.replace(/Um/, 'Outro')); // Para substituir uma palavra es
 
 console.log(umaString.replace(/t/g, '#')); // Para substituir repetidamente 
 
-console.log(umaString.length);
+console.log(umaString.length); // Para contar quantos indices tem uma string
+
+console.log(umaString.slice(0, 2)); // Para recortar uma palavra específica de uma string
+
+console.log(umaString.split(' '));
+
+console.log(umaString.toLocaleUpperCase); // Para deixar a string em maiúsculo.
+
+console.log(umaString.toLocaleLowerCase); // Para deixar a string em minúsculo.
+
+
+
+
 
 
 
