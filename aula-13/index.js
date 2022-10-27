@@ -14,6 +14,7 @@ console.log(`${umaString} em um lindo dia.`);
 console.log(umaString.indexOf('texto')); // Para descobrir em qual índice começa a palavra.
 console.log(umaString.indexOf('m', 1)); // Para buscar um valor a partir de um índice específico.
 console.log(umaString.indexOf('m', 1)); // Para descobrir em qual índice começa a palavra iniciando a busca de trás para frente. 
+console.log(umaString.lastIndexOf('t')); // Para buscar o último índice da letra na string.
 
 console.log(umaString.match(/[a-z]/g));
 
@@ -26,6 +27,7 @@ console.log(umaString.replace(/t/g, '#')); // Para substituir repetidamente
 console.log(umaString.length); // Para contar quantos indices tem uma string
 
 console.log(umaString.slice(0, 2)); // Para recortar uma palavra específica de uma string
+console.log(umaString.slice(-3)); //Para recortar o final da string 
 
 console.log(umaString.split(' '));
 
