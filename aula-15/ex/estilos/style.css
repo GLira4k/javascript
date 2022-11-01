@@ -6,7 +6,7 @@
 
 :root{
     --cor01: #11114E;
-    --fonte01: font-family: 'Oswald', sans-serif;
+    --fonte01:'Oswald', sans-serif;;
 }
 
 *{
@@ -44,8 +44,9 @@ main > #txt {
 }
 
 main > #txt > h1{
-    font-size: 2em;
+    font-size: 3rem;
     font-family: var(--fonte01);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
 }
 
 

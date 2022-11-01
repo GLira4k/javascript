@@ -1,4 +1,5 @@
 const num = Number(prompt('Digite um número:'));
+
 const numTitulo = document.getElementById('num-titulo');
 const textoGeral = document.getElementById('texto');
 
