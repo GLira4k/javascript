@@ -36,10 +36,15 @@ body{
 
     background-color: white;
     border-radius: 5px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.315);
 }
 
 #container h1, p, form{
     padding: 10px;
+}
+
+#container h1{
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.377);
 }
 
 abbr{
@@ -56,7 +61,13 @@ abbr{
     margin-bottom: 30px;
 }
 
-.lista li {
+#lista1 li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+
+#lista2 li {
     list-style-type: none;
     margin-top: 5px;
 }
@@ -102,5 +113,4 @@ form button:active{
     background-color: var(--cor2);
     animation-duration: 1s;
 }
-
 
